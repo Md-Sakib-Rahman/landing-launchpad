@@ -56,7 +56,9 @@ body{
 .nav-bar h2{
     color:#4E47FF ;
     font-size: 34px;
+    font-weight: 900;
 }
+
 /* button style  */
 .btn-primary{
     
@@ -77,6 +79,7 @@ body{
     
 }
 /* hero Sections */
+
 .hero-section{
     display: flex;
     flex-direction: column;
@@ -298,7 +301,7 @@ header{
     margin-bottom: 20px;
     border-radius: 10px;
     
-    border: none;
+    border: #D6DDED  solid 1px;
 }
 .forms form input{
     padding: 5px 32px;
@@ -326,4 +329,37 @@ header{
 .forms > form > button{
     width: 100%;
     height: 62px;
+}
+
+/* footer section */
+footer{
+    padding: 120px 0px;
+    background-color: white;
+}
+footer > div{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+footer > div h2{
+    font-size: 100px;
+    color: #4E47FF;
+}
+footer > div p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+    
+}
+.footerLinks a{
+    text-decoration: none;
+    font-size: 16px;
+    color: gray
 }
