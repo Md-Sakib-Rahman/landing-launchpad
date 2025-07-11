@@ -68,6 +68,13 @@ body{
     align-items: center;
     border:none;
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #4E47FF;
+    border: #4E47FF solid 1px;
+    
 }
 /* hero Sections */
 .hero-section{
