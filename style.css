@@ -21,6 +21,12 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+}
 .inter-regular {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -217,7 +223,7 @@ header{
     width: 1140px;
     height: 700px;
     margin: auto;
-
+    margin-bottom: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,4 +256,67 @@ header{
 .focusImg img{
     border-radius: 48px;
     width: 840px;
+}
+
+/* contact section */
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 640px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.contact >div{
+    width: 50%;
+}
+.contact >div > h2{
+    font-size: 97px;
+}
+.forms{
+    width: 50%;
+}
+.form > form label{
+    font-size: 18px;
+}
+.forms form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.forms form input, textarea{
+    
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+    border: none;
+}
+.forms form input{
+    padding: 5px 32px;
+    width: 500px;
+    height: 70px;
+    
+}
+.forms textarea{
+    padding: 20px 22px;
+}
+.forms > form > .emailLabel , .textlLabel{
+    margin-bottom: 20px;
+}
+.forms  input::placeholder,
+    textarea::placeholder {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+    font-size: 20px;
+    color: #888;
+    
+    }
+.forms > form > button{
+    width: 100%;
+    height: 62px;
 }
