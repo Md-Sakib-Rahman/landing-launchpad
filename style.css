@@ -1,4 +1,14 @@
+/* Universal selector and Overal body background */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #F5F8FF;
+}
 
+/* Added Fonts */
 .inter-bold {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -23,11 +33,13 @@
   font-weight: bold;
   font-style: normal;
 }
-
-*{
-    margin: 0px;
-    padding: 0px;
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
+/* Navbar Style */
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -39,7 +51,7 @@
     color:#4E47FF ;
     font-size: 34px;
 }
-
+/* button style  */
 .btn-primary{
     
     color:white;
@@ -51,6 +63,7 @@
     border:none;
     border-radius: 10px;
 }
+/* hero Sections */
 .hero-section{
     display: flex;
     flex-direction: column;
@@ -73,4 +86,34 @@ header{
     padding: 15px 0px;
     width: 200px;
 }
+/* Actions Section */
 
+.action{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 120px auto;
+    align-items: center;
+    
+}
+
+.action div h2{
+    font-size:43px;
+}
+.action div p{
+    font-size:24px;
+    color: #2524327e;
+}
+#launch-btn{
+    width: 230px;
+    height: 48px;
+    font-size: 16px;
+}
+.action-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.action-img-div img {
+    border-radius: 48px;
+}
